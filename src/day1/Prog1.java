@@ -1,7 +1,6 @@
 package day1;
 
 
-
 import java.lang.*;
 
 
