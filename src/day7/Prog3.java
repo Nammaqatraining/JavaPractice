@@ -17,9 +17,8 @@ public class Prog3 {
         String season = "";
         
         //12,1,2
-        if(month == 12 || month == 1 || month ==2) {
+        if(month == 12 || month == 1 || month ==2)
         	season = "Winter";
-        }
         else if (month == 3 || month == 4 || month ==5) {
         	season = "Spring";
         }
