@@ -14,7 +14,7 @@ public class Prog7 {
 		System.out.println(Prog7.i);
 		System.out.println(Prog7.j);
 		System.out.println(Prog7.PI);
-		
+		 	
 		//Prog7.method1();
 		
 		Prog7 obj = new Prog7();  //obj - instance/reference variable
