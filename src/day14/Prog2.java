@@ -1,5 +1,6 @@
 package day14;
 
+
 public class Prog2 {
 
 	//Exception handling
@@ -7,10 +8,11 @@ public class Prog2 {
 		// TODO Auto-generated method stub
 
 		System.out.println("Prog started");
-		int x = 10;
+		int x = 100;
 		int y = 0;
 		
 		int result = 0;
+		
 		
 		
 		try {
