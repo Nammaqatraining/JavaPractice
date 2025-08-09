@@ -30,7 +30,7 @@ public class Prog6 {
 			
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			 
 			throw new IOException();
 		}
 	}
