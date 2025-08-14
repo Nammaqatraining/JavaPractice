@@ -3,6 +3,7 @@ package day20;
 public class Developer extends Guest{
 
 	/*public void read() {
+		super.read();
 		System.out.println("Read code");
 	}*/
 	
