@@ -1,12 +1,15 @@
 package day38;
 
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.Hashtable;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
+import java.util.TreeMap;
 
-public class Prog3 {
+public class Prog6 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -14,7 +17,7 @@ public class Prog3 {
 		//Hashtable<Integer, String> ht = new Hashtable<Integer, String>();
 		//or
 		//Creation of Map
-		Map<Integer, String> ht = new Hashtable<Integer, String>();
+		Map<Integer, String> ht = new TreeMap<Integer, String>();
 		System.out.println(ht.size());//0
 
 		//Addition of elements into the Map
