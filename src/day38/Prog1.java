@@ -1,5 +1,6 @@
 package day38;
 
+import java.util.Iterator;
 import java.util.LinkedList;
 
 public class Prog1 {
@@ -21,6 +22,10 @@ public class Prog1 {
 			System.out.println(s);
 		}
 		
+		Iterator<String> itr = li.iterator();
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
 		
 		//3. Deletion of elements from the linked list
 		li.remove(0);//[2, 3]
